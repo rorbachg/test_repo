@@ -18,7 +18,7 @@ class test_my_sum(unittest.TestCase):
         x = (1,2,3,4,5)
         result = my_sum(x)
         
-        self.assertEqual(result, 15)
+        self.assertEqual(result, 14)
     
     def test_error(self):
         x = 1
