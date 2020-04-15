@@ -13,6 +13,12 @@ class test_my_sum(unittest.TestCase):
         result = my_sum(x)
         
         self.assertEqual(result, 15)
+
+    def test_tuple2(self):
+        x = (1,2,3,4,5)
+        result = my_sum(x)
+        
+        self.assertEqual(result, 15)
     
     def test_error(self):
         x = 1
